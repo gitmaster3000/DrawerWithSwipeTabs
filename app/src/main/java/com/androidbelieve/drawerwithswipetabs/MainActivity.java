@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity{
                 android.support.v7.widget.Toolbar toolbar = (android.support.v7.widget.Toolbar) findViewById(R.id.toolbar);
                 ActionBarDrawerToggle mDrawerToggle = new ActionBarDrawerToggle(this,mDrawerLayout, toolbar,R.string.app_name,
                 R.string.app_name);
-        ListView listView = (ListView)findViewById(R.id.abc);
+      ListView listView = (ListView)findViewById(R.id.left_drawer);
         listView.setAdapter(new ArrayAdapter<Integer>(this, android.R.layout.simple_list_item_1, new Integer[]{1, 2, 3, 4}));
 
 
