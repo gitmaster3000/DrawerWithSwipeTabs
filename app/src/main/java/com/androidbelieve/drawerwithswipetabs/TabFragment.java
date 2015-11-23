@@ -66,7 +66,7 @@ public class TabFragment extends Fragment {
         public Fragment getItem(int position)
         {
           switch (position){
-              case 0 : return new PrimaryFragment();
+              case 0 : return new NotesFragment();
               case 1 : return new SocialFragment();
 
           }
@@ -89,7 +89,7 @@ public class TabFragment extends Fragment {
 
             switch (position){
                 case 0 :
-                    return "Primary";
+                    return "Notes";
                 case 1 :
                     return "Social";
 
